@@ -1,9 +1,5 @@
 // library
 
-function print(text) {
-    return text;
-}
-
 function randomRGB() {
   var number = Math.random() * 255;
   number = Math.floor(number);
@@ -30,10 +26,28 @@ function winky(text) {
     return text + " ;)";
 }
 
+function findMean(numbers) {
+    let length = numbers.length;
+    for (var i = 0; i < numbers.length; i++);
+    return total / numbers.length;
+    
+  }
+
+function findMedian() {
+    
+}
+
+function findMode() {
+    
+}
+
 module.exports = {
     rgb: randomRGB,
     date: printDate,
     numbre: randomNumber,
     wink: winky,
-    add: sumProduct
-}
+    add: sumProduct,
+    mean: findMean,
+    median: findMedian,
+    mode: findMode
+};

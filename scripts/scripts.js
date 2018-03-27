@@ -5,7 +5,7 @@ console.log( library.rgb() );
 
 console.log( library.date() );
 
-console.log( library.winky("Hey sexy") );
+console.log( library.wink("Hey sexy") );
 
 console.log( library.numbre() );
 
